@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clock-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:crimson;
+}
+
+.clock {
+    width: 35%;
+    height: 75%;
+    padding: 20px;
+    border: 20px solid whitesmoke;
+    border-radius: 280px;
+    position: relative;
+}
+
+.hand {
+    width: 45%;
+    height: 2%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+}
+
+.second-hand, .minute-hand {
+    transform-origin: 100%;
+}
+
+.hour-hand {
+    width: 28%;
+    left: 21%;
+    transform-origin: 100%;
+}
