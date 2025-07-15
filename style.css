@@ -28,14 +28,11 @@
     background-color: white;
     position: absolute;
     top: 50%;
-}
-
-.second-hand, .minute-hand {
+    transform: rotate(90deg);
     transform-origin: 100%;
 }
 
 .hour-hand {
     width: 28%;
     left: 21%;
-    transform-origin: 100%;
 }
