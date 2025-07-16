@@ -8,10 +8,6 @@ let currentSeconds = currentDateTime.getSeconds();
 // Changing currentHours to 12 hours format
 currentHours = currentHours % 12;
 
-console.log(currentHours);
-console.log(currentMinutes);
-console.log(currentSeconds);
-
 const degreeHours = 1 / 600;
 const degreeMinutes = 0.1;
 const degreeSeconds = 6;
