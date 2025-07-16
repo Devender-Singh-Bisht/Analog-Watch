@@ -10,7 +10,7 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color:crimson;
+    background-color: crimson;
 }
 
 .clock {
@@ -18,7 +18,7 @@
     height: 75%;
     padding: 20px;
     border: 20px solid whitesmoke;
-    border-radius: 280px;
+    border-radius: 60%;
     position: relative;
 }
 
@@ -35,4 +35,20 @@
 .hour-hand {
     width: 28%;
     left: 21%;
+}
+
+@media screen and (max-width: 1000px) {
+    .clock {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .clock {
+        height: 50%;
+    }
+
+    .hour-hand {
+        left: 23%;
+    }
 }
